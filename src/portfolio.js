@@ -20,22 +20,22 @@ const illustration = {
 };
 
 const greeting = {
-  username: "piyush anand",
+  username: "Piyush Anand",
   title: "Hi all, I'm Piyush Anand",
   subTitle: emoji(
-    "I am a passionate finance enthusiast with a strong interest in Equity Research.Since 2018, I've actively managed my own investment portfolio, continuously expanding my financial knowledge.🚀"
+    "I am a passionate finance enthusiast with a strong interest in Equity Research.Since 2018, I've actively managed my own investment portfolio, continuously expanding my financial knowledge. 🚀"
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1lbf30-yEUi91eorXZkQOyVFAUeYbQDws/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
+  github: "https://github.com/itspiyush-cyber",
+  linkedin: "https://www.linkedin.com/in/piyush-anand-9279411b4/",
+  gmail: "piyushanand811311@gmail.com",
  
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
@@ -46,14 +46,21 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Passionate finance enthusiast with a strong interest in Equity Research.Created and manage The Humane Opportunist blog, sharing experiences and findings in investing, with a focus on ethical and sustainable practices. ",
+  subTitle: "Passionate finance enthusiast with a strong interest in Equity Research. Manage Finance blog, talks about finance, investments & markets. ",
   skills: [
     emoji(
       "⚡ Intermediate knowledge of Microsoft Excel"
     ),
     emoji("⚡ Worked on SAP during various Internal Audits"),
+
     emoji(
-      "⚡  Attended the 6th value Investors Pioneers summit conducted by CFA Society India."
+      "⚡  Have various expereinces in concurrent Audits."
+    ),
+    emoji(
+      "⚡  Performed Internal Audits of VPT, APEPDCL, etc"
+    ),
+    emoji(
+      "⚡Attended the 6th value Investors Pioneers summit conducted by CFA Society India."
     )
   ],
 
@@ -75,21 +82,19 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "ICAI",
-      logo: require("./assets/images/icailogo.jpg"),
-      subHeader: "CPT",
-      duration: "JUN-2017 - April 2019",
-      desc: "Performance - 134",
-      descBullets: [
-       
-      ]
-    },
-    {
       schoolName: "Delhi University",
       logo: require("./assets/images/dulogo.jpg"),
       subHeader: "Bachelor of Commerce",
       duration: "2021",
       desc: "Scored 6.636 CGPA",
+      descBullets: []
+    },
+    {
+      schoolName: "Sri Chaitanya Jr. College",
+      logo: require("./assets/images/chaityalogo.png"),
+      subHeader: "Secondary Education",
+      duration: "2015-2017",
+      desc: "Scored 80.20%",
       descBullets: []
     }
   ]
@@ -111,6 +116,10 @@ const techStack = {
     {
       Stack: "Internal Audits",
       progressPercentage: "60%"
+    },
+    {
+      Stack: "Equity Research",
+      progressPercentage: "60%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -122,30 +131,15 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
-      ]
+      role: "Audit Assistant with Komandoor & Co. LLP",
+      company: " Komandoor & Co. LLP",
+      companylogo: require("./assets/images/Komandoorlogo.jpg"),
+      date: "Jan 2023 – June 2023",
+      desc: "Internal Audits, Concurrent Audits, Stock Audit for Banks,I also had the opportunity to advise a client on divesting their funds. These experiences have given me a solid foundation in finance and equity research, and I am eager to continue my growth in this field."
+     
     },
-    {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
+   
+    
   ]
 };
 
@@ -256,20 +250,20 @@ const achievementSection = {
 const blogSection = {
   title: "Blogs",
   subtitle:
-    "With Love for Developing cool stuff, I love to write and teach others what I have learnt.",
+    "Would Love to Talk about Finance and Investments over Coffee or Chai.☕",
   displayMediumBlogs: "true", // Set true to display fetched medium blogs instead of hardcoded ones
   blogs: [
     {
-      url: "https://blog.usejournal.com/create-a-google-assistant-action-and-win-a-google-t-shirt-and-cloud-credits-4a8d86d76eae",
-      title: "Win a Google Assistant Tshirt and $200 in Google Cloud Credits",
+      url: "https://www.thehumaneopportunist.com/post/unveilingfinancialwisdom",
+      title: "Unveiling Financial Wisdom",
       description:
-        "Do you want to win $200 and Google Assistant Tshirt by creating a Google Assistant Action in less then 30 min?"
+        "Unveiling Financial Wisdom- A Warm Cup of Tea and Dreams: Conversations at Chai Tapri"
     },
     {
-      url: "https://medium.com/@saadpasta/why-react-is-the-best-5a97563f423e",
-      title: "Why REACT is The Best?",
+      url: "https://www.thehumaneopportunist.com/post/what-makes-maharastra-scooters-an-interesting-buy",
+      title: "What makes Maharastra Scooters an interesting buy?",
       description:
-        "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
+        "What makes Maharastra Scooters an interesting buy?"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -311,14 +305,14 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+91-9773675780",
+  email_address: "piyushanand811311@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
-  userName: "twitter", //Replace "twitter" with your twitter username without @
+  userName: "Piyush811311", //Replace "twitter" with your twitter username without @
   display: true // Set true to display this section, defaults to false
 };
 
