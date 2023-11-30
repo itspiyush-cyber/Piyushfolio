@@ -62,8 +62,8 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      // skillName: "docker",
+      // fontAwesomeClassname: "fab fa-docker"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -76,22 +76,21 @@ const educationInfo = {
   schools: [
     {
       schoolName: "ICAI",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      logo: require("./assets/images/icailogo.jpg"),
+      subHeader: "CPT",
+      duration: "JUN-2017 - April 2019",
+      desc: "Performance - 134",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+       
       ]
     },
     {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
+      schoolName: "Delhi University",
+      logo: require("./assets/images/dulogo.jpg"),
+      subHeader: "Bachelor of Commerce",
+      duration: "2021",
+      desc: "Scored 6.636 CGPA",
+      descBullets: []
     }
   ]
 };
@@ -102,15 +101,15 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
+      Stack: "Microsoft Excel", //Insert stack or technology you have experience in
       progressPercentage: "90%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
+      Stack: "SAP",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
+      Stack: "Internal Audits",
       progressPercentage: "60%"
     }
   ],
