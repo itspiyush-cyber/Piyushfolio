@@ -68,10 +68,10 @@ const skillsSection = {
 https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
-    {
-      // skillName: "docker",
-      // fontAwesomeClassname: "fab fa-docker"
-    }
+    // {
+    //   // skillName: "docker",
+    //   // fontAwesomeClassname: "fab fa-docker"
+    // }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -86,7 +86,7 @@ const educationInfo = {
       logo: require("./assets/images/dulogo.jpg"),
       subHeader: "Bachelor of Commerce",
       duration: "2021",
-      desc: "Scored 6.636 CGPA",
+      desc: "Secured First Division",
       descBullets: []
     },
     {
